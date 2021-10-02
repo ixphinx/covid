@@ -10,7 +10,8 @@ const Data = new Schema({
     country: String,
     email: String,
     user: String,
-    password: String
+    password: String,
+    riskscore: Number,
 
 
 });
