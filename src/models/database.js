@@ -11,7 +11,17 @@ const Data = new Schema({
     email: String,
     user: String,
     password: String,
-    riskscore: Number,
+    stds: Boolean,
+    cancer: Boolean,
+    mobesity: Boolean,
+    diabetes: Boolean,
+    hypertension: Boolean,
+    asthma: Boolean,
+    pneumonia: Boolean,
+    allergy: Boolean,
+    hattack: Boolean,
+    surgeries: Boolean,
+    vaccinated: Boolean,
 
 
 });
